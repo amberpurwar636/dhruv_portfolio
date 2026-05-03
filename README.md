@@ -40,6 +40,21 @@ A modern, responsive developer portfolio built with Next.js, Tailwind CSS, and E
 
 > The steps above work the same on **Windows, Mac, and Linux**.
 
+## 🌐 Deploy to Netlify
+
+1. Sign up at [Netlify](https://netlify.com)
+2. Import your GitHub repository
+3. Set the build command: `npm run build`
+4. Set the publish directory: `.next`
+5. Add your environment variables in **Site Settings → Environment**:
+   ```
+   NEXT_PUBLIC_APP_URL=https://your-site.netlify.app
+   NEXT_PUBLIC_EMAILJS_SERVICE_ID=your_service_id
+   NEXT_PUBLIC_EMAILJS_TEMPLATE_ID=your_template_id
+   NEXT_PUBLIC_EMAILJS_PUBLIC_KEY=your_public_key
+   ```
+6. Click **Deploy** — your site will be live!
+
 ## 🛠️ Built With
 
 - [Next.js](https://nextjs.org/) - React Framework
